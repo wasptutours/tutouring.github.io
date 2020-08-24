@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="MAXIMISE YOUR LEARNING POTENTIAL TODAY!">
+	  <meta name="keywords" content="tutouring, after classes, affordable classes, pure math classes, physics classes, cape, college, grenada, cheap, professional classes">
+  	<meta name="author" content="Wasim Pysadee">
+    <title>WASP Tutouring | Welcome</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="barnding">
+                <h1><span class="highlight">WASP</span> Tutouring</h1>
+            </div> 
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">HOME</a></li>
+                    <!--<li class="other_links"><a href="testimonials.html">TESTIMONIALS</a></li>-->
+                    <li class="other_links"><a href="contact_us.html">CONTACT US</a></li>
+                    <li class="other_links"><a href="about.html">ABOUT</a></li>
+                <ul>  
+            <nav>          
+        </div>            
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>MAXIMISE YOUR LEARNING POTENTIAL TODAY!</h1>
+            <P>Affordable Classes Designed to Help Everyone</p>
+        <div>    
+    </section>
+
+    <section id="banner_top">
+            <div class="container">
+                <h1>All of Our Classes are Recorded and Uploaded Here!</h1>    
+            </div>
+    </section>  
+
+       
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                
+                <a href="courses.html"><img src="courses7.png"></a> 
+                <a href="courses.html"><h3>OUR COURSES</h3></a>
+                <P>Comprehensive C.A.P.E. and College Level courses</P >                 
+            </div>
+
+            <div class="box">
+                    <a href="resources.html"><img src="resources2.png" width="200" height="121"></a>
+                    <a href="resources.html"><h3>RESOURCES</h3></a>
+                    <P>Video recordings and other tools for your success</P >                 
+            </div>
+
+            <div class="box">
+                    <a href="index.html"><img src="services.png" width="200" height="121"></a>
+                    <a href="index.html"><h3>OTHER SERVICES</h3></a>
+
+                    <P>We Can Do Much More for You! </P >                 
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe To Our Newsletter</h1>
+                <form>
+                    <input type="email" id= "email" placeholder="Enter Email">
+                    <button id= "submit_email" class="button_1">SUBSCRIBE</button>
+                </form>
+    
+            </div>
+    </section>  
+
+    <script>
+            let subscriptions = [];
+            
+                let d;
+                d = new Date();
+            const addemail = (ev)=>{
+                ev.preventDefault();  
+                let subscription = {
+                    email: document.getElementById('email').value,
+                    Date: d,
+                }
+                subscriptions.push(subscription);
+                document.forms[0].reset(); // to clear the form for the next entries
+                //document.querySelector('form').reset();
+    
+                //for display purposes only
+               // console.warn('added' , {movies} );
+                /*let pre = document.querySelector('#msg pre');
+                pre.textContent = '\n' + JSON.stringify(movies, '\t', 2);*/
+    
+                //saving to localStorage
+                localStorage.setItem('MySubcriptions', JSON.stringify(subscriptions) );
+            }
+            document.addEventListener('DOMContentLoaded', ()=>{
+                document.getElementById('submit_email').addEventListener('click', addemail);
+            });
+        </script> 
+
+    <footer>
+        <p><span>WASP Tutours</span>            copyright &copy;2020</p>
+
+    </footer>
+  <body>
+</html>

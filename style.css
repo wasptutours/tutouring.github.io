@@ -1,0 +1,688 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    padding:0;
+    background-color:#f4f4f4;
+}
+
+/*global*/
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.container3{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+.button_1{
+    height:38px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;}
+
+.button_1:hover{
+        color:#cccccc;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    
+
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.highlight{
+    color:#e8491d;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.overlay{
+    color:#ffffff;}
+
+
+
+/*header*/
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:10px;
+    min-height:70px;
+    border-bottom:#e8491d 5px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size:16px;
+}
+
+
+header li{
+    float:left;
+    display: inline;
+    padding:0 7px 0 10px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:-50px;
+}
+
+
+
+header .current a{
+    color:#e8491d;
+    font-size:12px;
+    
+}
+
+header .other_links a{
+    color:#cae1e7;
+    font-size:12px;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+    min-height:400px;
+    background:url('background.jpg') no-repeat;
+    text-align: center;
+    color:#ffffff
+}
+
+#showcase h1{
+    margin-top:80px;
+    font-size:40px;
+    margin-bottom:30px
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a;
+}
+
+/*banner_top*/
+#banner_top{
+    
+    border-bottom:#e8491d 5px solid;
+    background:#35424a;
+    color:#ffffff;
+
+    text-align: center;
+    padding-top:10px;
+    min-height:70px;
+   
+}
+
+/*boxes*/
+#boxes{
+    margin-top:20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#boxes .box{
+    float:left;
+    width:30%;
+    padding:1px;
+    text-align: center;
+   
+
+}
+
+#boxes .box a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#boxes .box_b{
+    float:left;
+    width:30%;
+    padding:10px;
+    text-align: center;}
+ 
+#boxes .box img{
+    width:100px;
+    height:100px;
+}
+
+#boxes .box_b img{
+    width:100px;
+    height:100px;}
+
+#boxes .box_b a{
+        color: #000000;
+        text-decoration: none;
+    }
+
+
+
+/*newsletter*/
+
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top:8px;
+}
+
+#newsletter input [type="email"]{
+    padding:4px;
+    height:20px;
+    width:250px;
+}
+
+/*footer*/
+footer{
+    padding:2px;
+    margin-top:0px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
+}
+
+/*aside*/
+aside#sidebar{
+    float:right;
+    width: 35%;
+    margin: 10px
+}
+
+#sidebar h3{
+    
+    font-size:15px;
+    line-height:0.8;
+    margin-top:10px;
+    
+    margin-bottom:10px
+}
+
+#sidebar p{
+    text-align: justify;
+}
+/*article main-col*/
+article#main-col{
+    float:left;
+    width:60%;
+}
+
+#main-col{
+    text-align: justify;
+}
+
+/*showcase_contact*/
+#showcase_contact{
+    margin-top:-25px;
+    min-height:400px;
+    background:url('contact_background3.jpg') no-repeat;
+    text-align: center;
+    text-transform: inherit;
+    color:#ffffff
+}
+
+#showcase_contact h4{
+    /*margin-top:300px;*/
+    padding-top:4px;
+    font-size: 15px;
+    line-height:0.8;
+}
+#showcase_contact h1{
+    /*margin-top:300px;*/
+    padding-top:300px;
+    padding-bottom: 0;
+    font-size:30px;
+    line-height:0.8;
+}
+
+/*conatct form*/
+
+.container2{
+    width:90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#contact-section{
+    background: url('contact_form.jpg');
+    background-size: cover;
+    background-position:center;
+    height:100%;
+    width:100%;
+    padding-bottom: 2%;
+}
+
+
+
+.contact-form i.fa{
+    font-size:22px;
+    padding:3%;
+    background-color:none;
+    margin:2%;
+    cursor:pointer;
+    border-radius: 80%;
+    border: 2px solid rgb(190,190,190);
+    color: rgb(190,190,190);
+}
+
+.container-form i.fa:hover {
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+}
+
+.contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color:#fff;
+    letter-spacing: 2px;
+}
+
+input{
+    padding: 10px;
+    margin:10px;
+    width:70%;
+    background-color:rgba(136,133,133,0.5);
+    color:#fff;
+    outline: none;
+}
+
+input::placeholder{
+    color:#fff;
+}
+
+textarea{
+    padding:10px;
+    margin:10px;
+    width:70%;
+    background-color: rgba(136,133,133,0.5);
+    color:#fff;
+    border:none;
+    outline:none;
+}
+
+textarea::placeholder{
+    color:#fff;
+}
+
+#submit{
+    width:40%;
+    background:none;
+    padding:4px;
+    outline:none;
+    font-size: 13px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    height:33px;
+    text-align:center;
+    cursor:pointer;
+    margin-left:3%;
+    border:2px solid rgb(190,190,190);
+    color:rgb(190,190,190);
+}
+
+#showcase_courses{
+    min-height:400px;
+    background:url('courses_background.jpeg') no-repeat;
+    text-align: center;
+    color:#ffffff;
+}
+
+/*#showcase h1{
+    margin-top:80px;
+    font-size:40px;
+    margin-bottom:30px
+}*/
+
+/*course boxes*/
+
+.course_container{
+    position: relative;
+    width:100%;
+    height:300px;
+    margin: 240px auto;
+    margin-top:0px;
+    background:#f4f4f4;
+
+}
+
+.course_container .course_box1{
+    position: relative;
+    width: 50%;
+    height: 270;
+    background:url('pure_math.jpg');
+    float: table-column;
+    text-align: center;
+    margin:15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-weight: bold;
+    border-radius: 20px;
+    color:#ffffff;
+}
+
+#boxes .box a:hover{
+    color: #494d4e;
+    font-weight: bold;
+
+}
+
+#boxes .box_b a:hover{
+    color: #494d4e;
+    font-weight: bold;
+}
+
+.course_container .course_box2{
+    position: relative;
+    width: 50%;
+    height: 270;
+    background:url('college_physics.jpg');
+    float: table-column;
+    margin:15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    color:#ffffff;
+}
+
+.course_container .course_box3{
+    position: relative;
+    width: 50%;
+    height: 270;
+    background:url('physics_unit1.jpg');
+    
+    float: table-column;
+    margin:15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.course_container .course_box4{
+    position: relative;
+    width: 50%;
+    height: 270;
+    background:url('physics_unit2.jpg');
+    float: table-column;
+    margin:15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    
+    border-radius: 20px;
+    color:#ffffff;
+   
+}
+.course_container .course_box3 h3{
+    margin-top:25px;
+}
+
+/*ENROLL BUTTON*/
+.submit_courses{
+    
+    width:95%;
+    padding:4px;
+    outline:none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    text-align:center;
+    cursor:pointer;
+    margin-left:3%;
+    height:38px;
+    background:#e8491d;
+    border:0;
+    margin-bottom:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;
+    
+}
+
+#submit_pure_math{
+    width:40%;
+    background:none;
+    padding:4px;
+    outline:none;
+    font-size: 13px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    height:33px;
+    text-align:center;
+    cursor:pointer;
+    margin-left:3%;
+    border:2px solid rgb(190,190,190);
+    color:rgb(190,190,190);
+}
+
+#submit_pure_math:hover{
+    color:#494d4e;
+}
+
+#submit_college_physics{
+    width:40%;
+    background:none;
+    padding:4px;
+    outline:none;
+    font-size: 13px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    height:33px;
+    text-align:center;
+    cursor:pointer;
+    margin-left:3%;
+    border:2px solid rgb(190,190,190);
+    color:rgb(190,190,190);
+}
+
+#submit_college_physics:hover{
+    color:#494d4e;
+}
+
+#submit_physics_unit1{
+    width:40%;
+    background:none;
+    padding:4px;
+    outline:none;
+    font-size: 13px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    height:33px;
+    text-align:center;
+    cursor:pointer;
+    margin-left:3%;
+    border:2px solid rgb(190,190,190);
+    color:rgb(190,190,190);
+}
+
+#submit_physics_unit1:hover{
+    color:#494d4e;
+}
+
+#submit_physics_unit2{
+    width:40%;
+    background:none;
+    padding:4px;
+    outline:none;
+    font-size: 13px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    height:33px;
+    text-align:center;
+    cursor:pointer;
+    margin-left:3%;
+    border:2px solid rgb(190,190,190);
+    color:rgb(190,190,190);
+}
+
+#submit_physics_unit2:hover{
+    color:#494d4e;
+}
+
+
+.submit_courses:hover{
+    color: #494d4e;
+    font-weight: bold;
+}
+
+/*showcase_pure_math*/
+#showcase_pure_math{
+    margin-top:0px;
+    min-height:400px;
+    background:url('pure_math_unit1.jpg') no-repeat;
+    text-align: center;
+    text-transform: inherit;
+    color:#ffffff
+}
+
+/*showcase_college_physics*/
+#showcase_college_physics{
+    margin-top:0px;
+    min-height:400px;
+    background:url('background_college_physics.jpg') no-repeat;
+    text-align: center;
+    text-transform: inherit;
+    color:#ffffff
+}
+
+/*showcase_college_physics*/
+#showcase_physics_unit2{
+    margin-top:0px;
+    min-height:400px;
+    background:url('background_physics_unit2.jpg') no-repeat;
+    text-align: center;
+    text-transform: inherit;
+    color:#ffffff
+}
+
+/*showcase_college_physics*/
+#showcase_physics_unit1{
+    margin-top:0px;
+    min-height:400px;
+    background:url('background_physics_unit1.jpg') no-repeat;
+    text-align: center;
+    text-transform: inherit;
+    color:#ffffff
+}
+
+/*videos*/
+#videos .video_container{
+    width:60%;
+    
+}
+
+video {
+    width:100%;
+    border-radius: 15px;
+    border:3px solid #e8491d;
+    
+    
+}
+
+#videos{
+    margin-top:50px;
+    margin-left:5%;
+    margin-bottom:100px;
+   
+}
+#videos .video_container .video p{
+    margin-bottom:50px;
+    margin-top:0px;
+    background: #494d4e;
+    width:100%;
+    color:#ffffff;
+    float:left;
+    border-radius:5px;
+    /*text-align: center;*/}
+
+/*aside_services*/
+aside#sidebar_services{
+    float:left;
+    width: 35%;
+    margin: 10px;
+   
+}
+
+#sidebar_services h3{
+    
+    font-size:15px;
+    line-height:0.8;
+    margin-top:10px;
+    
+    margin-bottom:10px
+}
+
+#sidebar_services p{
+    text-align: justify;
+}
+
+/*other services*/
+#posters .poster_container img{
+    float:right;
+    width:58%;
+    margin-right:2%;
+}
+#posters .poster_container{
+    margin-top:120px;
+    margin-bottom:5px;
+}
+
+#other_courses{
+    margin-top:10px;
+}
+
+
+
